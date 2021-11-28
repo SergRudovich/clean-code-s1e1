@@ -17,7 +17,7 @@ body {
 }
 
 .header
-.more-inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -33,6 +33,8 @@ body {
   margin: 0 auto 0;
 }
 
+.task-list__task,
+.edit-mode__task,
 .task {
   width: 56%;
   display: inline-block;
@@ -73,7 +75,7 @@ button{
 }
 
 /* Heading */
-.new-task {
+.main__new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
